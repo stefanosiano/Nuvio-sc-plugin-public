@@ -1,0 +1,570 @@
+[
+  {
+    "id": "genres-tv",
+    "title": "Serie per generi",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "genre-tv-action",
+        "title": "Azione & Fantastico",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-tv-action.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Popolari",
+            "filters": {
+              "voteCountGte": 25,
+              "withGenres": "10759|37|10765",
+              "withoutGenres": "10763,10767,16"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 25,
+              "withGenres": "10759|37|10765",
+              "withoutGenres": "10763,10767,16"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-tv-comedy",
+        "title": "Commedia",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-tv-comedy.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Popolari",
+            "filters": {
+              "voteCountGte": 25,
+              "withGenres": "35",
+              "withoutGenres": "10763,10767,80,9648,10759,10765,16,10764"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 25,
+              "withGenres": "35",
+              "withoutGenres": "10763,10767,80,9648,10759,10765,16,10764"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-tv-drama",
+        "title": "Dramma",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-tv-drama.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Popolari",
+            "filters": {
+              "voteCountGte": 25,
+              "withGenres": "18|10766",
+              "withoutGenres": "10763,10767,80,9648,10759,10765,16,10751,10762,10764,35"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 25,
+              "withGenres": "18|10766",
+              "withoutGenres": "10763,10767,80,9648,10759,10765,16,10751,10762,10764,35"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-tv-crime",
+        "title": "Crime & Mistero",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-tv-crime.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Popolari",
+            "filters": {
+              "voteCountGte": 25,
+              "withGenres": "80|9648",
+              "withoutGenres": "10763,10767,16",
+              "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362|315058"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 25,
+              "withGenres": "80|9648",
+              "withoutGenres": "10763,10767,16",
+              "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362|315058"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-tv-thriller",
+        "title": "Thriller & Horror",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-tv-thriller.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Popolari",
+            "filters": {
+              "voteCountGte": 10,
+              "withKeywords": "12565|209817|217282|207767|319190|298530|336497|316362|315058",
+              "withoutGenres": "10763,10767,16"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 10,
+              "withKeywords": "12565|209817|217282|207767|319190|298530|336497|316362|315058",
+              "withoutGenres": "10763,10767,16"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-tv-animation",
+        "title": "Animazione & Famiglia",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-tv-animation.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Animazione",
+            "filters": {
+              "voteCountGte": 10,
+              "withGenres": "16",
+              "withoutGenres": "10763,10767,10751,10762"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Famiglia",
+            "filters": {
+              "voteCountGte": 10,
+              "withGenres": "10751",
+              "withoutGenres": "10763,10767,10762,10764"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Kids",
+            "filters": {
+              "voteCountGte": 10,
+              "withGenres": "10762",
+              "withoutGenres": "10763,10767,10764"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 10,
+              "withGenres": "16|10762|10751",
+              "withoutGenres": "10763,10767,10764"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-tv-docs",
+        "title": "Documentari & Musica",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-tv-docs.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Documentari",
+            "filters": {
+              "voteCountGte": 10,
+              "withGenres": "99",
+              "withoutGenres": "10763,10767"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Musica",
+            "filters": {
+              "voteCountGte": 10,
+              "withKeywords": "4344|283297",
+              "withoutGenres": "10763,10767,10764"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 10,
+              "withGenres": "99",
+              "withoutGenres": "10763,10767"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "genres-movie",
+    "title": "Film per generi",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "genre-movie-action",
+        "title": "Azione & Fantastico",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-movie-action.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "28|12|37|878|14",
+              "withoutGenres": "16"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "28|12|37|878|14",
+              "withoutGenres": "16"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-movie-comedy",
+        "title": "Commedia",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-movie-comedy.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Commedie",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "35",
+              "withoutGenres": "10749,80,53,9648,27,28,12,37,878,14,16,10751"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Romance",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "35,10749",
+              "withoutGenres": "80,53,9648,27,28,12,37,878,14,16,10751"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "35",
+              "withoutGenres": "80,53,9648,27,28,12,37,878,14,16,10751"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-movie-drama",
+        "title": "Dramma",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-movie-drama.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "18|10749",
+              "withoutGenres": "80,53,9648,27,28,12,37,878,14,16,10751,35"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "18|10749",
+              "withoutGenres": "80,53,9648,27,28,12,37,878,14,16,10751,35"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-movie-crime",
+        "title": "Crime & Mistero",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-movie-crime.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "80|53|9648",
+              "withoutGenres": "27,16",
+              "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "80|53|9648",
+              "withoutGenres": "27,16",
+              "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-movie-thriller",
+        "title": "Thriller & Horror",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-movie-thriller.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Thriller",
+            "filters": {
+              "voteCountGte": 100,
+              "withKeywords": "12565|209817|217282|207767|319190|298530|336497|316362",
+              "withoutGenres": "16"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Horror",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "27",
+              "withoutGenres": "16",
+              "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "53|27",
+              "withoutGenres": "16"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-movie-animation",
+        "title": "Animazione & Famiglia",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-movie-animation.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Animazione",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "16",
+              "withoutGenres": "10751"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Famiglia",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "10751",
+              "withoutGenres": "53"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "16|10751",
+              "withoutGenres": "53"
+            }
+          }
+        ]
+      },
+      {
+        "id": "genre-movie-docs",
+        "title": "Documentari & Musica",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/genre-movie-docs.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Documentari",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "99"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Musica",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "10402"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "title": "Recenti",
+            "filters": {
+              "voteCountGte": 100,
+              "withGenres": "99|10402"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {"slug":"netflix","recentVotes":10,"title":"Netflix","network":213,"logo":"/wwemzKWzjKYJFfCeiB57q3r4Bcm.png","mode":"keep","bg":["#000000","#141414"]},
+  {"slug":"prime-video","recentVotes":10,"title":"Prime Video","network":1024,"logo":"/w7HfLNm9CWwRmAMU58udl2L7We7.png","mode":"white","bg":["#00050D","#0F2A4A"]},
+  {"slug":"disney-plus","recentVotes":10,"title":"Disney+","filters":{"withNetworks":"2739|54|453"},"logo":"/1edZOYAfoyZyZ3rklNSiUpXX30Q.png","mode":"white","bg":["#020A3A","#0B3BB0"]},
+  {"slug":"hbo-max","recentVotes":1,"title":"HBO Max","filters":{"withNetworks":"3186|6783|8304|49"},"logo":"/nmU0UMDJB3dRRQSTUqawzF2Od1a.png","mode":"white","bg":["#001BD1","#7A2CFF"]},
+  {"slug":"apple-tv","title":"Apple TV","network":2552,"logo":"/bngHRFi794mnMq34gfVcm9nDxN1.png","mode":"white","bg":["#000000","#2A2A2E"]},
+  {"slug":"crunchyroll","row":2,"recentVotes":10,"title":"Crunchyroll","sourceTitle":"Crunchyroll Anime","filters":{"withWatchProviders":"283|1968"},"logo":"/gNZh44MgDBwipGA9LwozlALjSdE.png","mode":"white","bg":["#B83A00","#F47521"]},
+  {"slug":"paramount-plus","row":2,"recentVotes":1,"title":"Paramount+","filters":{"withNetworks":"4330|6631|6100|5506|1709|67"},"logo":"/fi83B1oztoS47xxcemFdPMhIzK.png","mode":"white","bg":["#001A66","#0064FF"]},
+  {"slug":"sky-now","row":2,"recentVotes":1,"title":"Sky / NOW","sourceTitle":"Sky Originals","filters":{"withNetworks":"2667|7030|877|1114|5652|1063|214|5237|7524","withoutGenres":"10763,10764,10767"},"logo":"/dNuhKIiAChEJdGA7TXQgwqbFU6y.png","mode":"white","bg":["#2B0A5E","#C4004B"]},
+  {"slug":"raiplay","row":2,"recentVotes":1,"title":"RaiPlay","sourceTitle":"Rai Series","filters":{"withNetworks":"3463|3828|533|236|547","withoutGenres":"10763,10764,10767"},"logo":"/xuijJ556OSE9xqw9C6Y8nf3liKP.png","mode":"rai","bg":["#04122E","#0B4FC2"]},
+  {"slug":"mediaset-infinity","row":2,"recentVotes":1,"title":"Mediaset Infinity","sourceTitle":"Mediaset Series","filters":{"withNetworks":"537|402|1360|3980|1362|7919","withoutGenres":"10763,10764,10767"},"logo":"/BqjHkTjb53X7d84Zy92razCudh.png","mode":"grey2white","bg":["#07051A","#2A1466"]}
+]

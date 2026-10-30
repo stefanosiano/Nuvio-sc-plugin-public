@@ -1,0 +1,246 @@
+[
+  {
+    "id": "decades",
+    "title": "Decenni",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "decade-2020",
+        "title": "2020+",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/decade-2020.png",
+        "tileShape": "SQUARE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "releaseDateGte": "2020-01-01",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Serie TV",
+            "filters": {
+              "releaseDateGte": "2020-01-01",
+              "voteCountGte": 25,
+              "withoutGenres": "10763,10764,10767"
+            }
+          }
+        ]
+      },
+      {
+        "id": "decade-2010",
+        "title": "Anni 2010",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/decade-2010.png",
+        "tileShape": "SQUARE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "releaseDateGte": "2010-01-01",
+              "releaseDateLte": "2019-12-31",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Serie TV",
+            "filters": {
+              "releaseDateGte": "2010-01-01",
+              "releaseDateLte": "2019-12-31",
+              "voteCountGte": 25,
+              "withoutGenres": "10763,10764,10767"
+            }
+          }
+        ]
+      },
+      {
+        "id": "decade-2000",
+        "title": "Anni 2000",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/decade-2000.png",
+        "tileShape": "SQUARE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "releaseDateGte": "2000-01-01",
+              "releaseDateLte": "2009-12-31",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Serie TV",
+            "filters": {
+              "releaseDateGte": "2000-01-01",
+              "releaseDateLte": "2009-12-31",
+              "voteCountGte": 25,
+              "withoutGenres": "10763,10764,10767"
+            }
+          }
+        ]
+      },
+      {
+        "id": "decade-1990",
+        "title": "Anni 90",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/decade-1990.png",
+        "tileShape": "SQUARE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "releaseDateGte": "1990-01-01",
+              "releaseDateLte": "1999-12-31",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Serie TV",
+            "filters": {
+              "releaseDateGte": "1990-01-01",
+              "releaseDateLte": "1999-12-31",
+              "voteCountGte": 25,
+              "withoutGenres": "10763,10764,10767"
+            }
+          }
+        ]
+      },
+      {
+        "id": "decade-1980",
+        "title": "Anni 80",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/decade-1980.png",
+        "tileShape": "SQUARE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "releaseDateGte": "1980-01-01",
+              "releaseDateLte": "1989-12-31",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Serie TV",
+            "filters": {
+              "releaseDateGte": "1980-01-01",
+              "releaseDateLte": "1989-12-31",
+              "voteCountGte": 25,
+              "withoutGenres": "10763,10764,10767"
+            }
+          }
+        ]
+      },
+      {
+        "id": "decade-1970",
+        "title": "Anni 70",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/decade-1970.png",
+        "tileShape": "SQUARE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "releaseDateGte": "1970-01-01",
+              "releaseDateLte": "1979-12-31",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Serie TV",
+            "filters": {
+              "releaseDateGte": "1970-01-01",
+              "releaseDateLte": "1979-12-31",
+              "voteCountGte": 25,
+              "withoutGenres": "10763,10764,10767"
+            }
+          }
+        ]
+      },
+      {
+        "id": "decade-pre-1970",
+        "title": "Prima del 1970",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/decade-pre-1970.png",
+        "tileShape": "SQUARE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "title": "Film",
+            "filters": {
+              "releaseDateLte": "1969-12-31",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "title": "Serie TV",
+            "filters": {
+              "releaseDateLte": "1969-12-31",
+              "voteCountGte": 25,
+              "withoutGenres": "10763,10764,10767"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "Http Resolver",
+  "version": "1.11.33",
+  "description": "Nuvio plugin to fetch wanted movies and TV shows.",
+  "author": "stefano",
+  "scrapers": [
+    {
+      "id": "http-resolver",
+      "name": "Http Resolver",
+      "description": "Nuvio plugin to fetch wanted movies and TV shows.",
+      "version": "1.11.33",
+      "filename": "providers/http-resolver.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "enabled": true
+    }
+  ]
+}

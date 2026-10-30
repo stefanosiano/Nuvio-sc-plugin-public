@@ -1,0 +1,9 @@
+[
+  {"slug":"2020","title":"2020+","gte":"2020-01-01","lte":null,"label":"’20","caption":"DAL 2020","bg":["#061A2B","#0E7C86"],"glow":"#3FE0D0","colour":"#FFFFFF"},
+  {"slug":"2010","title":"Anni 2010","gte":"2010-01-01","lte":"2019-12-31","label":"’10","caption":"ANNI 2010","bg":["#2B0F4C","#E0457B"],"glow":"#FF7AA8","colour":"#FFFFFF"},
+  {"slug":"2000","title":"Anni 2000","gte":"2000-01-01","lte":"2009-12-31","label":"’00","caption":"ANNI 2000","bg":["#0B1D3A","#4A7BD0"],"glow":"#8FB8FF","colour":"#FFFFFF"},
+  {"slug":"1990","title":"Anni 90","gte":"1990-01-01","lte":"1999-12-31","label":"’90","caption":"ANNI 90","bg":["#1B0B33","#0FB5A5"],"glow":"#B26BFF","colour":"#FFFFFF"},
+  {"slug":"1980","title":"Anni 80","gte":"1980-01-01","lte":"1989-12-31","label":"’80","caption":"ANNI 80","bg":["#1A0533","#FF2E88"],"glow":"#FF5FD2","colour":"#FFFFFF"},
+  {"slug":"1970","title":"Anni 70","gte":"1970-01-01","lte":"1979-12-31","label":"’70","caption":"ANNI 70","bg":["#2B1300","#D9661F"],"glow":"#FFB347","colour":"#FFFFFF"},
+  {"slug":"pre-1970","title":"Prima del 1970","gte":null,"lte":"1969-12-31","prefix":"PRE","label":"’70","caption":"PRIMA DEL 1970","bg":["#2A1A0E","#B8862F"],"glow":"#FFD27A","colour":"#F6EAD0"}
+]

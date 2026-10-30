@@ -1,0 +1,333 @@
+[
+  {
+    "id": "italian-streaming-originals",
+    "title": "Serie Originali",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "orig-netflix",
+        "title": "Netflix",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/netflix.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/netflix.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "NETWORK",
+            "title": "Netflix Originals",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {},
+            "tmdbId": 213
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "NETWORK",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "voteCountGte": 10
+            },
+            "tmdbId": 213
+          }
+        ]
+      },
+      {
+        "id": "orig-prime-video",
+        "title": "Prime Video",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/prime-video.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/prime-video.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "NETWORK",
+            "title": "Prime Video Originals",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {},
+            "tmdbId": 1024
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "NETWORK",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "voteCountGte": 10
+            },
+            "tmdbId": 1024
+          }
+        ]
+      },
+      {
+        "id": "orig-disney-plus",
+        "title": "Disney+",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/disney-plus.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/disney-plus.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Disney+ Originals",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "2739|54|453"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withNetworks": "2739|54|453",
+              "voteCountGte": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "orig-hbo-max",
+        "title": "HBO Max",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/hbo-max.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/hbo-max.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "HBO Max Originals",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "3186|6783|8304|49"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withNetworks": "3186|6783|8304|49",
+              "voteCountGte": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "orig-apple-tv",
+        "title": "Apple TV",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/apple-tv.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/apple-tv.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "NETWORK",
+            "title": "Apple TV Originals",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {},
+            "tmdbId": 2552
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "NETWORK",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {},
+            "tmdbId": 2552
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "italian-streaming-originals-2",
+    "title": "-",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "orig-crunchyroll",
+        "title": "Crunchyroll",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/crunchyroll.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/crunchyroll.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Crunchyroll Anime",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withWatchProviders": "283|1968"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withWatchProviders": "283|1968",
+              "voteCountGte": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "orig-paramount-plus",
+        "title": "Paramount+",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/paramount-plus.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/paramount-plus.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Paramount+ Originals",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "4330|6631|6100|5506|1709|67"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withNetworks": "4330|6631|6100|5506|1709|67",
+              "voteCountGte": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "orig-sky-now",
+        "title": "Sky / NOW",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/sky-now.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/sky-now.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Sky Originals",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "2667|7030|877|1114|5652|1063|214|5237|7524",
+              "withoutGenres": "10763,10764,10767"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withNetworks": "2667|7030|877|1114|5652|1063|214|5237|7524",
+              "withoutGenres": "10763,10764,10767",
+              "voteCountGte": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "orig-raiplay",
+        "title": "RaiPlay",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/raiplay.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/raiplay.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Rai Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "3463|3828|533|236|547",
+              "withoutGenres": "10763,10764,10767"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withNetworks": "3463|3828|533|236|547",
+              "withoutGenres": "10763,10764,10767",
+              "voteCountGte": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "orig-mediaset-infinity",
+        "title": "Mediaset Infinity",
+        "coverImageUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/covers/mediaset-infinity.png",
+        "titleLogoUrl": "https://raw.githubusercontent.com/stefanosiano/Nuvio-sc-plugin-public/main/Collections/logos/mediaset-infinity.png",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Mediaset Series",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withNetworks": "537|402|1360|3980|1362|7919",
+              "withoutGenres": "10763,10764,10767"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Recenti",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withNetworks": "537|402|1360|3980|1362|7919",
+              "withoutGenres": "10763,10764,10767",
+              "voteCountGte": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
