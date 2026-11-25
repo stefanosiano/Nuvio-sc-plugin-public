@@ -1,0 +1,480 @@
+[
+  {
+    "slug": "action",
+    "title": "Azione & Fantastico",
+    "label": "AZIONE",
+    "caption": "AZIONE · FANTASY",
+    "bg": [
+      "#2A0A00",
+      "#E2551B"
+    ],
+    "glow": "#FF9A3C",
+    "sources": [
+      [
+        "MOVIE",
+        "Popolari",
+        {
+          "withGenres": "28|12|37|878|14",
+          "withoutGenres": "16",
+          "voteCountGte": 250
+        }
+      ],
+      [
+        "TV",
+        "Popolari",
+        {
+          "withGenres": "10759|37|10765",
+          "withoutGenres": "16"
+        }
+      ]
+    ],
+    "recent": {
+      "MOVIE": {
+        "withGenres": "28|12|37|878|14",
+        "withoutGenres": "16",
+        "voteCountGte": 500
+      },
+      "TV": {
+        "withGenres": "10759|37|10765",
+        "withoutGenres": "16",
+        "voteCountGte": 50
+      }
+    },
+    "recentFirst": [
+      "TV",
+      "MOVIE"
+    ]
+  },
+  {
+    "slug": "comedy",
+    "title": "Commedia",
+    "label": "COMMEDIA",
+    "caption": "COMMEDIA",
+    "bg": [
+      "#3A2400",
+      "#F2A705"
+    ],
+    "glow": "#FFE066",
+    "sources": [
+      [
+        "MOVIE",
+        "Popolari",
+        {
+          "withGenres": "35",
+          "withoutGenres": "16",
+          "voteCountGte": 250
+        }
+      ],
+      [
+        "TV",
+        "Popolari",
+        {
+          "withGenres": "35",
+          "withoutGenres": "16,10764"
+        }
+      ]
+    ],
+    "recent": {
+      "MOVIE": {
+        "withGenres": "35",
+        "withoutGenres": "16",
+        "voteCountGte": 500
+      },
+      "TV": {
+        "withGenres": "35",
+        "withoutGenres": "16,10764",
+        "voteCountGte": 50
+      }
+    },
+    "recentFirst": [
+      "TV",
+      "MOVIE"
+    ]
+  },
+  {
+    "slug": "drama",
+    "title": "Dramma",
+    "label": "DRAMMA",
+    "caption": {
+      "TV": "DRAMMA · SOAP",
+      "MOVIE": "DRAMMA"
+    },
+    "bg": [
+      "#2A0613",
+      "#B3123F"
+    ],
+    "glow": "#FF6B8B",
+    "sources": [
+      [
+        "MOVIE",
+        "Popolari",
+        {
+          "withGenres": "18|10749",
+          "withoutGenres": "80,53,9648,27,28,12,37,878,14,16,10751,35",
+          "voteCountGte": 250
+        }
+      ],
+      [
+        "TV",
+        "Popolari",
+        {
+          "withGenres": "18|10766",
+          "withoutGenres": "80,16,10751,10762,10764,35"
+        }
+      ]
+    ],
+    "recent": {
+      "MOVIE": {
+        "withGenres": "18|10749",
+        "withoutGenres": "80,53,9648,27,28,12,37,878,14,16,10751,35",
+        "voteCountGte": 500
+      },
+      "TV": {
+        "withGenres": "18|10766",
+        "withoutGenres": "80,16,10751,10762,10764,35",
+        "voteCountGte": 50
+      }
+    },
+    "recentFirst": [
+      "TV",
+      "MOVIE"
+    ]
+  },
+  {
+    "slug": "crime",
+    "title": "Crime & Mistero",
+    "label": "CRIME",
+    "caption": "CRIME · MISTERO",
+    "bg": [
+      "#05080D",
+      "#3A5068"
+    ],
+    "glow": "#9FC3E8",
+    "sources": [
+      [
+        "MOVIE",
+        "Popolari",
+        {
+          "withGenres": "80|53|9648",
+          "withoutGenres": "27,16",
+          "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362"
+        }
+      ],
+      [
+        "TV",
+        "Popolari",
+        {
+          "withGenres": "80|9648",
+          "withoutGenres": "16",
+          "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362|315058"
+        }
+      ]
+    ],
+    "recent": {
+      "MOVIE": {
+        "withGenres": "80|53|9648",
+        "withoutGenres": "27,16",
+        "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362",
+        "voteCountGte": 500
+      },
+      "TV": {
+        "withGenres": "80|9648",
+        "withoutGenres": "16",
+        "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362|315058",
+        "voteCountGte": 50
+      }
+    },
+    "recentFirst": [
+      "TV",
+      "MOVIE"
+    ]
+  },
+  {
+    "slug": "thriller",
+    "title": "Thriller & Horror",
+    "label": "THRILLER",
+    "caption": "THRILLER · HORROR",
+    "bg": [
+      "#0A0000",
+      "#650606"
+    ],
+    "glow": "#FF2B2B",
+    "sources": [
+      [
+        "MOVIE",
+        "Thriller Recenti",
+        {
+          "withKeywords": "12565|209817|217282|207767|319190|298530|336497|316362",
+          "withoutGenres": "16",
+          "voteCountGte": 25
+        },
+        "primary_release_date.desc"
+      ],
+      [
+        "MOVIE",
+        "Thriller",
+        {
+          "withKeywords": "12565|209817|217282|207767|319190|298530|336497|316362",
+          "withoutGenres": "16",
+          "voteCountGte": 5
+        }
+      ],
+      [
+        "MOVIE",
+        "Horror Recenti",
+        {
+          "withGenres": "27",
+          "withoutGenres": "16",
+          "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362",
+          "voteCountGte": 500
+        },
+        "primary_release_date.desc"
+      ],
+      [
+        "MOVIE",
+        "Horror",
+        {
+          "withGenres": "27",
+          "withoutGenres": "16",
+          "withoutKeywords": "12565|209817|217282|207767|319190|298530|336497|316362",
+          "voteCountGte": 250
+        }
+      ],
+      [
+        "TV",
+        "Popolari",
+        {
+          "withKeywords": "12565|209817|217282|207767|319190|298530|336497|316362|315058",
+          "withoutGenres": "16",
+          "voteCountGte": 10
+        }
+      ]
+    ],
+    "recent": {
+      "TV": {
+        "withKeywords": "12565|209817|217282|207767|319190|298530|336497|316362|315058",
+        "withoutGenres": "16",
+        "voteCountGte": 15
+      }
+    },
+    "recentFirst": [
+      "TV",
+      "MOVIE"
+    ]
+  },
+  {
+    "slug": "anime",
+    "title": "Anime & Young Adult",
+    "label": "ANIME",
+    "caption": "ANIME · YOUNG ADULT",
+    "bg": [
+      "#12002A",
+      "#C2187A"
+    ],
+    "glow": "#FF6EC7",
+    "sources": [
+      [
+        "MOVIE",
+        "Anime Recenti",
+        {
+          "withGenres": "16",
+          "withoutGenres": "10751",
+          "withOriginCountry": "JP",
+          "voteCountGte": 25
+        },
+        "primary_release_date.desc"
+      ],
+      [
+        "MOVIE",
+        "Anime Popolari",
+        {
+          "withGenres": "16",
+          "withoutGenres": "10751",
+          "withOriginCountry": "JP",
+          "voteCountGte": 15
+        }
+      ],
+      [
+        "MOVIE",
+        "Young Adult Recenti",
+        {
+          "withGenres": "16",
+          "withoutGenres": "10751",
+          "withOriginCountry": "!JP",
+          "voteCountGte": 25
+        },
+        "primary_release_date.desc"
+      ],
+      [
+        "MOVIE",
+        "Young Adult Popolari",
+        {
+          "withGenres": "16",
+          "withoutGenres": "10751",
+          "withOriginCountry": "!JP",
+          "voteCountGte": 25
+        }
+      ],
+      [
+        "TV",
+        "Anime Recenti",
+        {
+          "withGenres": "16",
+          "withoutGenres": "10751,10762",
+          "withOriginCountry": "JP",
+          "voteCountGte": 25
+        },
+        "first_air_date.desc"
+      ],
+      [
+        "TV",
+        "Anime Popolari",
+        {
+          "withGenres": "16",
+          "withoutGenres": "10751,10762",
+          "withOriginCountry": "JP",
+          "voteCountGte": 10
+        }
+      ],
+      [
+        "TV",
+        "Young Adult Recenti",
+        {
+          "withGenres": "16",
+          "withoutGenres": "10751,10762",
+          "withOriginCountry": "!JP",
+          "voteCountGte": 15
+        },
+        "first_air_date.desc"
+      ],
+      [
+        "TV",
+        "Young Adult Popolari",
+        {
+          "withGenres": "16",
+          "withoutGenres": "10751,10762",
+          "withOriginCountry": "!JP",
+          "voteCountGte": 10
+        }
+      ]
+    ]
+  },
+  {
+    "slug": "family",
+    "title": "Famiglia & Kids",
+    "label": "FAMIGLIA",
+    "caption": {
+      "TV": "FAMIGLIA · KIDS",
+      "MOVIE": "FAMIGLIA"
+    },
+    "bg": [
+      "#04203A",
+      "#1FB46E"
+    ],
+    "glow": "#7CFFB2",
+    "sources": [
+      [
+        "MOVIE",
+        "Famiglia",
+        {
+          "withGenres": "10751",
+          "withoutGenres": "53"
+        }
+      ],
+      [
+        "TV",
+        "Famiglia",
+        {
+          "withGenres": "10751",
+          "withoutGenres": "10762,10764",
+          "voteCountGte": 10
+        }
+      ],
+      [
+        "TV",
+        "Kids",
+        {
+          "withGenres": "10762",
+          "withoutGenres": "10764",
+          "voteCountGte": 10
+        }
+      ]
+    ],
+    "recent": {
+      "MOVIE": {
+        "withGenres": "10751",
+        "withoutGenres": "53",
+        "voteCountGte": 100
+      },
+      "TV": {
+        "withGenres": "10751|10762",
+        "withoutGenres": "10764",
+        "voteCountGte": 15
+      }
+    },
+    "recentFirst": [
+      "TV",
+      "MOVIE"
+    ]
+  },
+  {
+    "slug": "docs",
+    "title": "Documentari & Musica",
+    "label": "DOCUMENTARI",
+    "caption": "DOCUMENTARI · MUSICA",
+    "bg": [
+      "#1E1A10",
+      "#7A6A43"
+    ],
+    "glow": "#E8D9A8",
+    "sources": [
+      [
+        "MOVIE",
+        "Documentari",
+        {
+          "withGenres": "99",
+          "voteCountGte": 50
+        }
+      ],
+      [
+        "MOVIE",
+        "Musica",
+        {
+          "withGenres": "10402",
+          "voteCountGte": 50
+        }
+      ],
+      [
+        "TV",
+        "Popolari",
+        {
+          "withGenres": "99",
+          "voteCountGte": 10
+        }
+      ],
+      [
+        "TV",
+        "Musica",
+        {
+          "withKeywords": "4344|283297",
+          "withoutGenres": "10764",
+          "voteCountGte": 1
+        }
+      ]
+    ],
+    "recent": {
+      "MOVIE": {
+        "withGenres": "99|10402",
+        "voteCountGte": 100
+      },
+      "TV": {
+        "withGenres": "99",
+        "voteCountGte": 15
+      }
+    },
+    "recentFirst": [
+      "TV",
+      "MOVIE"
+    ]
+  }
+]
